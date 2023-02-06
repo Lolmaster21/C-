@@ -18,14 +18,14 @@ int main() {
 
 	}
 
-	else if (input > 10-5) {
+	else if (input > 10 - 5) {
 
 		cout << ("Hey thats pretty good amount of cookies") << endl;
 
 	}
 
-	 
-//part 2--------------------------------------------------------------------------------------------
+
+	//part 2--------------------------------------------------------------------------------------------
 	char character;
 
 	cout << "Which character is your favorite((b)art simpson, (s)cooby doo, (r)ick, or (d)affy duck)" << endl;
@@ -56,51 +56,51 @@ int main() {
 	}
 
 	//print Switch statement-----------------------------------------------------------------
+	char characters;
 	cout << "Again what is your favorite character?" << endl;
-	cin >> character;
+	cin >> characters;
 
-	void cartoon(char character);
-		switch (character) {
+	switch (characters) {
 
-		case 'b':
-			cout << ("Eat my shorts") << endl;
-			break;
+	case 'b':
+		cout << ("Eat my shorts") << endl;
+		break;
 
-		case 'd':
+	case 'd':
 
-			cout << ("sufferin' succotash!") << endl;
+		cout << ("sufferin' succotash!") << endl;
+		break;
 
+	case 'r':
+		cout << ("Wubba lubba dub dub") << endl;
 
-		case 'r':
-			cout << ("Wubba lubba dub dub") << endl;
+		break;
 
-			break;
+	case 's':
+		cout << ("scooby dooby doo") << endl;
 
-		case 's':
-			cout << ("scooby dooby doo") << endl;
-				
-			break;
-
+		break;
 
 
-		}
+
+	}
 
 	char desert;
 	char topping;
-	cout<< "Do you want (i)ce cream or (c)andy?" << endl;
+	cout << "Do you want (i)ce cream or (c)andy?" << endl;
 	cin >> desert;
 
 	if (desert == 'c') {
 
-		cout <<"Do you want (c)hocolate or (f)ruit?" << endl;
+		cout << "Do you want (c)hocolate or (f)ruit?" << endl;
 		cin >> topping;
 
 		if (topping == 'c') {
-			cout<<"You got a hersheys bar" << endl;
+			cout << "You got a hersheys bar" << endl;
 
 		}
 		else if (topping == 'f') {
-			cout <<"Starbursttttt" << endl;
+			cout << "Starbursttttt" << endl;
 		}
 	}
 
